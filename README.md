@@ -1,6 +1,11 @@
 # Random number generator for the Stirling-gamma distribution. 
 
 The Stirling-gamma distribution is a heavy-tailed distribution that is the conjugate prior to the precision parameter of a Dirichlet process. 
+It was introduced in the following paper:
+> Zito, A. Rigon, T. and Dunson, D. B. (2023) - Bayesian nonparametric modeling of latent partitions via Stirling-gamma priors, arXiv:2306.02360
+
+Please cite it if you use the package!
+
 The `ConjugateDP` package can be installed by running the following commands:
 ```r
 # If the devtools R package is not already installed
