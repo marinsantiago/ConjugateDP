@@ -2,7 +2,7 @@
 
 The Stirling-gamma distribution is a heavy-tailed distribution that is the conjugate prior to the precision parameter of a Dirichlet process. 
 It was introduced in the following paper:
-> Zito, A. Rigon, T. and Dunson, D. B. (2023) - Bayesian nonparametric modeling of latent partitions via Stirling-gamma priors, arXiv:2306.02360
+> Zito, A. Rigon, T. and Dunson, D. B. (2024) - Bayesian nonparametric modeling of latent partitions via Stirling-gamma priors, Bayesian Analysis Advance Publication 1 - 28, 2024. https://doi.org/10.1214/24-BA1463
 
 Please cite it if you use the package!
 
