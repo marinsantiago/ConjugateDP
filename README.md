@@ -21,7 +21,7 @@ The package contains two functions:
 The following code provides an example.
 
 ```r
-set.seed(42)
+set.seed(1)
 # To sample from the distribution
 nsamples <- 50000
 a <- 5
@@ -42,7 +42,7 @@ hist(samples, breaks = 50, freq = FALSE, main = "rSg", xlab = "alpha", ylab = "D
 A sampler for the posterior distribution of the precision parameter of a Dirichlet process
 under a Stirling-gamma prior is available usign the following code.
 ```r
-set.seed(42)
+set.seed(1)
 par(mfrow = c(1,1))
 # To sample from the distribution
 nsamples <- 50000
@@ -58,7 +58,3 @@ n <- 100
 posterior_samples <- rSg_posterior(nsamples, a, b, m, k, n)
 lines(density(posterior_samples), col = "red")
 ```
-
-
-
-
